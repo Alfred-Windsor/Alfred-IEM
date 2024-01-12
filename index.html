@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>先驱者科学前沿站</title>
+<link rel="icon" type="image/png" href="/cpec.png">
+<style>
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  color: #333;
+  padding: 20px 0px;
+}
+.intro-text {
+  font-size: 16px;
+  color: #999;
+  font-style: normal;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -20px 0 20px 0;
+}
+.quote {
+  text-align: right;
+  color: #999;
+}
+.author {
+  font-size: 12px;
+  color: #999;
+  margin-right: 10px;
+}
+.project {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+h2 {
+  color: #007BFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.button {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  font-size: 16px;
+}
+.category-line {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.category-line::before,
+.category-line::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px dashed #999;
+}
+.category-line::before {
+  margin-right: .5em;
+}
+.category-line::after {
+  margin-left: .5em;
+}
+.category-line span {
+  white-space: nowrap;
+}
+.version-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0px auto;
+}
+.version-container span {
+  margin-right: 20px;
+}
+.version-link {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.version-link:hover {
+  color: #0056b3;
+}
+.small-text {
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  margin-top: 9.2px;
+  width: 50%;
+  margin-left: 55.2%;
+}
+.small-text2 {
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: 55.6%;
+}
+.disclaimer {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="App">
+      <h1>先驱者科学前沿站</h1>
+      <p class="intro-text">本站供各位先驱者体验各类AI前沿技术</p>
+      <div class="quote-container">
+        <div class="quote">
+          <p><em>人工智能是人类最伟大的发明，也是最危险的挑战。</em></p>
+          <p class="author">——斯蒂芬·霍金</p>
+        </div>
+        <div class="version-container">
+          <p><span>站点版本：v2.0.0</span> <span><a href="https://raw.gitmirror.com/Carl-Ryan/Carl-CPEC/main/public/logs/Cyrus-website.txt" class="version-link">查看更新日志</a></span></p>
+      </div>
+     </div>
+        <div class="category">
+          <div class="category-line">
+          <span>原生类工具</span>
+        </div>
+        <div class="project" id="bing">
+            <h2><img src="https://raw.gitmirror.com/Carl-Ryan/Carl-CPEC/main/public/icons/Bing AI.png" alt="Bing AI Icon" class="project-icon" /> Bing AI</h2>
+            <p>本站点基于 Next.js 重写，高度还原 New Bing Web 版 UI，提供了一致的用户界面体验，内置了 API 让您无需登录就可以开始聊天。同时，它的后端经过深度优化，响应速度与对话质量大幅提升。现已支持识图功能，Bing 可以根据用户上传的图片进行对话，无论您是在电脑端还是手机端，都可以享受到这个平台的便利，让您的聊天体验更加丰富。</p>
+            <div class="button-group">
+              <a href="https://bing.github1s.tk/" class="button">进入站点</a>
+              <a href="https://raw.gitmirror.com/Carl-Ryan/Carl-CPEC/main/public/faqs/Bing AI.txt" class="button">查看教程</a>
+            </div>
+            <p class="small-text">（首次使用建议观看）</p>
+          </div>
+        </div>
+      <div class="category">
+        <div class="category-line">
+          <span>第三方工具</span>
+        </div>
+        <div class="project">
+          <h2><img src="https://raw.gitmirror.com/Carl-Ryan/Carl-CPEC/main/public/icons/ChatGPT by Cyrus.png" alt="ChatGPT Next Web Icon" class="project-icon" /> ChatGPT by Cyrus</h2>
+          <p>本站点基于 ChatGPT Web 开发，采用加密数据库实现了用户登录、注册和管理等功能，同时支持多端数据同步，对话记录与账号绑定，保护您的数据安全。普通访问可使用 GPT-3.5-Turbo 模型，资深访问可使用最先进的 GPT-4 模型。系统使用加密传输，后台无法获取您的任何消息记录，从而最大程度的保护了您的隐私安全。</p>
+          <div class="button-group">
+            <a href="https://chatgpt-web.cyrus-reed.com" class="button">进入站点</a>
+            <a href="https://raw.gitmirror.com/Carl-Ryan/Carl-CPEC/main/public/faqs/ChatGPT by Cyrus.txt" class="button">查看教程</a>
+          </div>
+          <p class="small-text">（首次使用建议观看）</p>
+        </div>
+      </div>
+      <p class="disclaimer">请注意：本站仅供学习交流，禁止产生任何敏感对话或图像等内容，否则将撤销使用权限，并自行承担任何后果。</p>
+    </div>
+</body>
+</html>
